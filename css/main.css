@@ -1,0 +1,181 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    z-index: 999;
+}
+
+.header .inner {
+    justify-content: space-between;
+    line-height: 100px;
+}
+
+.header h1 {
+    font-size: 0;
+    position: relative;
+    z-index: 1000;
+}
+
+.header h1.on a {
+    background: url(../img/logo.svg)no-repeat center center/contain;
+}
+
+.header h1 a {
+    display: block;
+    background: url(../img/logo_w.png)no-repeat center center/contain;
+    width: 150px;
+}
+
+.header .gnb>ul>li>a {
+    display: block;
+    padding: 0 30px;
+}
+
+.header .gnb>ul>li>ul {
+    display: none;
+}
+
+.header .gnb.on {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background: #fff;
+    color: #333;
+}
+
+.header .gnb.on>ul {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    width: 1380px;
+    height: 735px;
+    margin: 0 auto;
+
+    background: url(../img/nav_img.jpg)no-repeat center center/contain;
+    background-position: top 20px right;
+}
+
+.header .gnb.on>ul>li {
+    line-height: 60px;
+    width: 210px;
+}
+
+.header .gnb.on>ul>li a {
+    display: block;
+    padding: 0;
+}
+
+.header .gnb.on>ul>li>ul {
+    display: block;
+}
+
+.header .menu_bar {
+    position: relative;
+    top: 50%;
+    font-size: 0;
+    width: 30px;
+    line-height: 100px;
+}
+
+.header .menu_bar span {
+    position: relative;
+    display: block;
+    height: 30px;
+}
+
+.header .menu_bar::before,
+.header .menu_bar::after,
+.header .menu_bar span::before,
+.header .menu_bar span::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 1px;
+    background: #fff;
+    opacity: 1;
+    transition: 0.5s;
+
+}
+
+.header .menu_bar::before,
+.header .menu_bar::after {
+    top: 50%;
+}
+
+.header .menu_bar.on::before {
+    transform: rotate(-45deg);
+    background: #333;
+}
+
+.header .menu_bar.on::after {
+    transform: rotate(45deg);
+    background: #333;
+}
+
+.header .menu_bar span::before {
+    top: 4px;
+}
+
+.header .menu_bar span::after {
+    bottom: 3px;
+}
+
+.header .menu_bar.on span::before {
+    opacity: 0;
+    background: #333;
+}
+
+.header .menu_bar.on span::after {
+    opacity: 0;
+    background: #333;
+}
+
+/* header */
+.mainVisual {
+    position: relative;
+    height: 100vh;
+    background: url(../img/mainVisual_bg.jpg) no-repeat center center/cover;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 1px #000;
+}
+
+.mainVisual .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainVisual .inner h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    line-height: 1.3;
+}
+
+.mainVisual .inner p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.mainVisual .inner a {
+    font-size: 18px;
+    border-bottom: 1px solid #fff;
+}
+
+/* main visual */
+
+.mainProduct .itm .img_case {
+    height: 650px;
+}
+
+.mainProduct .itm .img_case img {
+    height: 100%;
+}
