@@ -1,0 +1,69 @@
+.penellagenVisual span {
+    display: block;
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.penellagenVisual h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.penellagenVisual h2 img {
+    width: 1000px;
+}
+
+.penellagenVisual .visual_video {
+    height: 500px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.penellagenVisual .visual_video video {
+    width: 100%;
+}
+
+.penellagenVisual .visual_txt {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.penellagenVisual .visual_txt p {
+    margin-bottom: 20px;
+}
+
+.penellagenDes {
+    padding: 50px 0;
+    background: #ededed;
+    text-align: center;
+}
+
+.penellagenDes .inner>div {
+    padding: 50px 0;
+}
+
+.penellagenDes img {
+    width: 100%;
+}
+
+.penellagenDes .des_tech {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.penellagenDes .des_tech strong {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.penellagenDes .des_tech p {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 15px;
+    margin-bottom: 20px;
+}

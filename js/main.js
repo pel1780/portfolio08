@@ -26,10 +26,10 @@ $(function () {
         lastScrollTop = sct;
 
         if (sct > 100) {
-            $('.header').addClass('bg')
+            $('.header').addClass('bg');
         } else {
-            $('.header').removeClass('bg')
-        };
+            $('.mainH').removeClass('bg');
+        }
     });
 
     $('.scrolldown a').on('click', function (event) {
@@ -66,10 +66,17 @@ $(function () {
         } else {
             $('.toTop').removeClass('on');
         }
-    })
+    });
 
     $('.toTop').on('click', function () {
         $('html, body').stop().animate({ scrollTop: 0 }, 600)
-    })
+    });
+});
+// //////// main script ////////////////
 
-})
+$(function () {
+    $('.itm_slide').slick({
+        arrows: false,
+        dots: true,
+    });
+});
