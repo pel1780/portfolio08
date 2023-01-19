@@ -399,7 +399,7 @@
 }
 
 .footer .inner {
-    gap: 50px;
+    gap: 150px;
 }
 
 .footer .inner .logo img {
@@ -407,6 +407,7 @@
 }
 
 .footer .foot_content {
+    justify-content: flex-end;
     flex: 5;
     position: relative;
     gap: 50px;
@@ -431,7 +432,7 @@
 .footer .foot_content .copy {
     position: absolute;
     bottom: 0;
-    left: 0;
+    right: 0;
     color: #555;
 }
 

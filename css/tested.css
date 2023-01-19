@@ -1,0 +1,144 @@
+.testedVisual {
+    text-align: center;
+}
+
+.testedVisual .inner {
+    position: relative;
+}
+
+.testedVisual img,
+.testedDes img {
+    width: 100%;
+}
+
+.testedVisual span {
+    display: block;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.testedVisual span img {
+    width: 320px;
+}
+
+.testedVisual h2 {
+    position: absolute;
+    top: 115px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1380px;
+    font-size: 90px;
+    font-weight: 700;
+    text-shadow: 0 0 1px #fff;
+}
+
+/* /////// */
+.testedDes {
+    text-align: center;
+}
+
+.testedDes .inner {
+    width: 960px;
+}
+
+.testedDes .inner>div {
+    margin-bottom: 100px;
+}
+
+.testedDes em.font_w {
+    font-weight: 900;
+}
+
+.testedDes em.font_c {
+    color: #F2724A;
+}
+
+.testedDes div>* {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.testedDes .tested_des01 strong {
+    font-size: 50px;
+}
+
+.testedDes .tested_des01 p {
+    font-size: 30px;
+}
+
+.testedDes .tested_des02 .des02_top {
+    background: url(../img/testedDes02_bg1.jpg) no-repeat center center /cover;
+    padding: 100px 0;
+    margin: 0;
+}
+
+.testedDes .tested_des02 .des02_top strong {
+    font-size: 50px;
+    line-height: 1.3;
+}
+
+.testedDes .tested_des02 .des02_top a {
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #222;
+    margin: 0;
+}
+
+.testedDes .tested_des02 .des02_btm {
+    background: url(../img/testedDes02_bg02.jpg) no-repeat center center/cover;
+    padding: 100px 0;
+    margin: 0;
+}
+
+.testedDes .tested_des02 .des02_btm span {
+    width: 200px;
+    margin: 0 auto 30px auto;
+}
+
+.testedDes .tested_des02 .des02_btm strong {
+    font-size: 50px;
+}
+
+.testedDes .tested_des02 .des02_btm p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.testedDes .tested_des02 .des02_btm figure {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.testedDes .inner .tested_des03 {
+    margin-bottom: 0;
+}
+
+.testedDes .tested_des03>em {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.testedDes .tested_des03 span {
+    margin-bottom: 50px;
+    color: #666;
+}
+
+.testedDes .tested_des03 strong {
+    font-size: 50px;
+}
+
+.testedDes .tested_des03 figure {
+    width: 600px;
+    margin: 0 auto 30px auto;
+}
+
+.testedDes .tested_des03 p {
+    font-size: 20px;
+    background: #f7f7f7;
+    padding: 30px 50px;
+    border-radius: 20px;
+}
+
+.testedDes .tested_des03 p em {
+    font-weight: 700;
+}
