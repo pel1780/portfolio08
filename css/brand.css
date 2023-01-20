@@ -1,0 +1,149 @@
+.brand .inner {
+    position: relative;
+    width: 1020px;
+}
+
+.brand .line::before {
+    content: "";
+    position: absolute;
+    top: -100px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #ddd;
+}
+
+.brandVisual {
+    text-align: center;
+}
+
+.brandVisual .inner>* {
+    display: block;
+    margin-bottom: 70px;
+}
+
+.brandVisual img {
+    width: 800px;
+}
+
+.brandVisual span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.brandVisual strong {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.brandVisual .inner p {
+    width: 500px;
+    margin: 0 auto 20px auto;
+}
+
+.brandVisual .inner p:last-child {
+    margin: 0 auto;
+}
+
+/* /// */
+
+.brandNaming .inner>span {
+    display: block;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.brandNaming .naming_tit {
+    text-align: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.brandNaming .naming_tit li {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 500;
+    text-shadow: 0 0 1px #000;
+    color: #fff;
+}
+
+.brandNaming .naming_tit li:nth-child(1) {
+    background: url(../img/mainTechnology01.jpg) no-repeat center center/cover;
+}
+
+.brandNaming .naming_tit li:nth-child(2) {
+    background: url(../img/mainVisual_bg.jpg) no-repeat center center/cover;
+}
+
+.brandNaming .naming_tit li:nth-child(3) {
+    background: url(../img/mainAbout01.jpg) no-repeat center center/cover;
+}
+
+.brandNaming .naming_des {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.brandNaming .naming_des li {
+    position: relative;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    align-items: center;
+}
+
+.brandNaming .naming_des li:last-child {
+    margin: 0;
+}
+
+.brandNaming .naming_des span {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.brandNaming .naming_des strong {
+    flex: 2;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.brandNaming .naming_des em {
+    color: #C59C81;
+}
+
+.brandNaming .naming_des p {
+    flex: 3;
+}
+
+/* ///// */
+.brandBanner {
+    position: relative;
+    padding: 180px 0 100px 0;
+    background: url(../img/brandBanner.jpg) no-repeat center center/cover;
+    color: #fff;
+}
+
+.brandBanner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.brandBanner strong {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.4;
+}

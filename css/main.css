@@ -158,6 +158,58 @@
     background: #333;
 }
 
+@media(max-width: 768px) {
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        color: #fff;
+        z-index: 999;
+        transition: 0.5s;
+    }
+
+    .header.on {
+        top: -100%;
+    }
+
+    .header .inner {
+        flex-direction: row;
+    }
+
+    .header .gnb {
+        display: none;
+    }
+
+    .header .gnb.on {
+        display: block;
+    }
+
+    .header .gnb>ul>li>a {
+        font-size: 24px;
+    }
+
+    .header .gnb>ul>li>ul {
+        display: none;
+    }
+
+    .header .gnb.on>ul {
+        width: 100%;
+        padding: 0 15px;
+
+        background: none;
+    }
+
+    .header .gnb.on>ul>li {
+        line-height: 35px;
+        width: auto;
+    }
+
+    .header .gnb.on>ul>li>ul {
+        margin-bottom: 50px;
+    }
+}
+
 /* header */
 .mainVisual {
     position: relative;
@@ -217,6 +269,36 @@
 @keyframes down {
     to {
         transform: translate(-50%, 10px);
+    }
+}
+
+@media(max-width: 768px) {
+    .mainVisual {
+        height: 80vh;
+    }
+
+    .mainVisual .inner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+
+    .mainVisual .inner h2 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 40px;
+        line-height: 1.3;
+    }
+
+    .mainVisual .inner p {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .mainVisual .inner a {
+        font-size: 14px;
     }
 }
 
@@ -298,6 +380,50 @@
     transition: 0.5s 0.8s;
 }
 
+@media(max-width: 768px) {
+    .mainProduct .itm .img_case {
+        width: 100%;
+        height: 320px;
+    }
+
+    .mainProduct .itm .img_case img {
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+    }
+
+    .mainProduct .itm .flex>div {
+        flex: none;
+    }
+
+    .mainProduct .text_case span {
+        color: #555;
+    }
+
+    .mainProduct .text_case h3 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 1.3;
+    }
+
+    .mainProduct .text_case p {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .mainProduct .text_case strong {
+        font-size: 18px;
+    }
+
+    .mainProduct .itm02 div {
+        flex-direction: column-reverse;
+    }
+
+    .mainProduct .itm02 .text_case {
+        flex-direction: column;
+    }
+}
+
 /* main product */
 .mainTechnology .inner>h2 {
     text-align: center;
@@ -358,6 +484,68 @@
     opacity: 1;
 }
 
+@media(max-width: 768px) {
+    .mainTechnology .inner>h2 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    .mainTechnology .inner>p {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .mainTechnology ul {
+        gap: 30px;
+        height: auto;
+        color: #fff;
+    }
+
+    .mainTechnology ul li {
+        position: relative;
+        flex: none;
+        padding: 40px 30px;
+        height: 300px;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+
+    .mainTechnology .list01 {
+        background: url(../img/mainTechnology01.jpg)no-repeat center center/cover;
+    }
+
+    .mainTechnology .list02 {
+        background: url(../img/mainTechnology02.jpg)no-repeat center center/cover;
+    }
+
+    .mainTechnology .list03 {
+        background: url(../img/mainTechnology03.jpg)no-repeat center center/cover;
+    }
+
+    .mainTechnology ul li strong {
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .mainTechnology ul li p {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 30px;
+        background: rgba(0, 0, 0, 0.7);
+        font-weight: 300;
+        opacity: 0;
+        transition: 0.5s;
+    }
+
+    .mainTechnology ul li.on p {
+        opacity: 1;
+    }
+}
+
 /* main technology */
 
 .mainAbout {
@@ -375,7 +563,7 @@
 }
 
 .mainAbout h2 {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 500;
 }
 
@@ -434,6 +622,30 @@
     bottom: 0;
     right: 0;
     color: #555;
+}
+
+@media(max-width: 768px) {
+
+    .footer .inner {
+        gap: 30px;
+        font-size: 12px;
+    }
+
+    .footer .inner .logo img {
+        width: 120px;
+    }
+
+    .footer .foot_content {
+        gap: 30px;
+    }
+
+    .footer .foot_content .info ul {
+        margin-bottom: 0;
+    }
+
+    .footer .foot_content .cs {
+        margin-bottom: 0;
+    }
 }
 
 /* footer */

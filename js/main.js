@@ -78,5 +78,9 @@ $(function () {
     $('.itm_slide').slick({
         arrows: false,
         dots: true,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        pauseOnHover: false,
+        pauseOnFocus: false,
     });
 });

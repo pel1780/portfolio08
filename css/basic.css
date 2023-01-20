@@ -36,3 +36,16 @@ p {
 * {
     outline: 1px solid t-omato;
 }
+
+@media(max-width: 768px) {
+    .inner {
+        width: auto;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+}

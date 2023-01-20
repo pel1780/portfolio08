@@ -77,6 +77,10 @@
     line-height: 1.3;
 }
 
+.testedDes .tested_des02 .des02_top p>em {
+    font-weight: 700;
+}
+
 .testedDes .tested_des02 .des02_top a {
     display: inline-block;
     padding-bottom: 5px;
