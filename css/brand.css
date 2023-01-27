@@ -45,6 +45,30 @@
     margin: 0 auto;
 }
 
+@media(max-width: 768px) {
+    .brand .inner {
+        width: auto;
+    }
+
+    .brandVisual .inner>* {
+        margin-bottom: 30px;
+    }
+
+    .brandVisual img {
+        width: 100%;
+    }
+
+    .brandVisual .inner strong {
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+
+    .brandVisual .inner p {
+        width: auto;
+        margin: 0 auto 10px auto;
+    }
+}
+
 /* /// */
 
 .brandNaming .inner>span {
@@ -122,6 +146,66 @@
     flex: 3;
 }
 
+@media(max-width: 768px) {
+    .brandNaming .naming_tit {
+        position: relative;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        padding-bottom: 174px;
+        margin-bottom: 50px;
+    }
+
+    .brandNaming .naming_tit li {
+        flex: none;
+        width: 174px;
+        height: 174px;
+        font-size: 20px;
+    }
+
+    .brandNaming .naming_tit li:last-child {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 174px;
+    }
+
+    .brandNaming .naming_des {
+        width: auto;
+    }
+
+    .brandNaming .naming_des li {
+        position: relative;
+        gap: 15px;
+        margin-bottom: 30px;
+        padding-left: 0;
+        align-items: center;
+    }
+
+    .brandNaming .naming_des li:last-child {
+        margin: 0;
+    }
+
+    .brandNaming .naming_des span {
+        position: absolute;
+        top: 5px;
+        left: 20px;
+    }
+
+    .brandNaming .naming_des strong {
+        font-size: 40px;
+    }
+
+    .brandNaming .naming_des em {
+        color: #C59C81;
+    }
+
+    .brandNaming .naming_des p {
+        text-align: center;
+    }
+}
+
 /* ///// */
 .brandBanner {
     position: relative;
@@ -146,4 +230,19 @@
     font-size: 30px;
     font-weight: 500;
     line-height: 1.4;
+}
+
+@media(max-width: 768px) {
+    .brandBanner {
+        padding: 100px 0;
+    }
+
+    .brandBanner strong {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .brandBanner p {
+        font-size: 15px;
+    }
 }

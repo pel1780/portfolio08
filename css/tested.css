@@ -32,6 +32,53 @@
     text-shadow: 0 0 1px #fff;
 }
 
+@media(max-width: 768px) {
+    .testedVisual {
+        text-align: center;
+    }
+
+    .testedVisual .inner {
+        position: relative;
+    }
+
+    .testedVisual img,
+    .testedDes img {
+        width: 100%;
+    }
+
+    .testedVisual span {
+        display: block;
+        margin-bottom: 140px;
+        text-align: center;
+    }
+
+    .testedVisual span img {
+        width: 320px;
+    }
+
+    .testedVisual h2 {
+        position: absolute;
+        top: 90px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        font-size: 50px;
+        font-weight: 700;
+        text-shadow: 0 0 1px #fff;
+    }
+
+    .testedVisual figure {
+        height: 180px;
+        overflow: hidden;
+    }
+
+    .testedVisual figure img {
+        height: 100%;
+        object-fit: cover;
+        transform: scale(1.4);
+    }
+}
+
 /* /////// */
 .testedDes {
     text-align: center;
@@ -145,4 +192,108 @@
 
 .testedDes .tested_des03 p em {
     font-weight: 700;
+}
+
+@media(max-width: 768px) {
+    .testedDes {
+        text-align: center;
+    }
+
+    .testedDes .inner {
+        width: auto;
+    }
+
+    .testedDes .inner>div {
+        margin-bottom: 100px;
+    }
+
+    .testedDes em.font_w {
+        font-weight: 900;
+    }
+
+    .testedDes em.font_c {
+        color: #F2724A;
+    }
+
+    .testedDes div>* {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .testedDes .tested_des01 strong {
+        font-size: 30px;
+    }
+
+    .testedDes .tested_des01 p {
+        font-size: 20px;
+    }
+
+    .testedDes .tested_des02 {
+        margin: 0 -15px;
+        overflow: hidden;
+    }
+
+    .testedDes .tested_des02 .des02_top {
+        padding: 100px 15px;
+    }
+
+    .testedDes .tested_des02 .des02_top strong {
+        font-size: 30px;
+    }
+
+    .testedDes .tested_des02 .des02_top p {
+        font-size: 14px;
+    }
+
+    .testedDes .tested_des02 .des02_top p>em {
+        font-weight: 700;
+    }
+
+    .testedDes .tested_des02 .des02_top a {
+        display: inline-block;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #222;
+        margin: 0;
+    }
+
+    .testedDes .tested_des02 .des02_btm {
+        padding: 100px 15px;
+    }
+
+    .testedDes .tested_des02 .des02_btm span {
+        width: 150px;
+    }
+
+    .testedDes .tested_des02 .des02_btm strong {
+        font-size: 30px;
+    }
+
+    .testedDes .tested_des02 .des02_btm p {
+        font-size: 16px;
+    }
+
+    .testedDes .tested_des02 .des02_btm figure {
+        width: 70%;
+    }
+
+    .testedDes .tested_des03>em {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .testedDes .tested_des03 span {
+        margin-bottom: 20px;
+    }
+
+    .testedDes .tested_des03 strong {
+        font-size: 30px;
+    }
+
+    .testedDes .tested_des03 figure {
+        width: auto;
+    }
+
+    .testedDes .tested_des03 p {
+        font-size: 15px;
+    }
 }

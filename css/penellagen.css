@@ -35,6 +35,41 @@
     margin-bottom: 20px;
 }
 
+@media(max-width: 768px) {
+    .penellagenVisual span {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .penellagenVisual h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .penellagenVisual h2 img {
+        width: 100%;
+    }
+
+    .penellagenVisual .visual_video {
+        height: auto;
+        overflow: hidden;
+        margin-bottom: 50px;
+    }
+
+    .penellagenVisual .visual_txt {
+        width: 100%;
+    }
+
+    .penellagenVisual .visual_txt p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .penellagenVisual .visual_txt p:last-child {
+        margin-bottom: 0;
+    }
+}
+
 /* ///// */
 
 .penellagenDes {
@@ -117,6 +152,63 @@
     padding: 50px 0 100px 0;
 }
 
+@media(max-width: 768px) {
+    .penellagenDes {
+        padding: 50px 0 0 0;
+    }
+
+    .penellagenDes .inner {
+        width: auto;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .penellagenDes .inner>div {
+        padding: 50px 0;
+    }
+
+    .penellagenDes img,
+    .penellagenPatent img {
+        width: 100%;
+    }
+
+    .penellagenDes .des_tech {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .penellagenDes .des_tech strong {
+        font-size: 30px;
+    }
+
+    .penellagenDes .des_tech p {
+        width: auto;
+    }
+
+    .penellagenDes .des_graph {
+        gap: 50px;
+    }
+
+    .penellagenDes .des_graph .graph_txt {
+        flex: none;
+    }
+
+    .penellagenDes .des_graph .graph_txt>* {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .penellagenDes .des_graph .graph_txt em {
+        display: block;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .penellagenDes .des_graph .graph_img {
+        flex: none;
+    }
+}
+
 /* /// */
 .penellagenPatent {
     background: #ededed;
@@ -156,4 +248,42 @@
 .penellagenPatent .patent p {
     font-weight: 300;
     color: #666;
+}
+
+@media(max-width: 768px) {
+    .penellagenPatent .inner {
+        width: auto;
+    }
+
+    .penellagenPatent h3 {
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .penellagenPatent .inner {
+        gap: 50px;
+    }
+
+    .penellagenPatent .patent figure {
+        width: 80%;
+        margin: 0 auto 30px auto;
+        box-shadow: 0 0 5px #777;
+    }
+
+    .penellagenPatent .patent figure img {
+        width: 100%;
+    }
+
+    .penellagenPatent .patent strong {
+        display: block;
+        margin-bottom: 15px;
+        font-size: 24px;
+    }
+
+    .penellagenPatent .patent p {
+        font-weight: 300;
+        color: #666;
+    }
 }

@@ -32,6 +32,12 @@ $(function () {
         }
     });
 
+    $('.header').on('scroll wheel touchmove', function (e) {
+        if ($('.gnb').hasClass('on')) {
+            e.preventDefault();
+        };
+    });
+
     $('.scrolldown a').on('click', function (event) {
         event.preventDefault();
         $('html, body').animate({ scrollTop: $(this.hash).offset().top - 100 }, 1000);

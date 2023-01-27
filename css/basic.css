@@ -16,6 +16,10 @@ p {
     margin: 0 auto;
 }
 
+.padding {
+    margin-top: 100px;
+}
+
 .flex {
     display: flex;
     flex-direction: row;
@@ -47,5 +51,9 @@ p {
     .flex {
         display: flex;
         flex-direction: column;
+    }
+
+    .padding {
+        margin-top: 50px;
     }
 }
